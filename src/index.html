@@ -6,8 +6,56 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
+
+    <header>
+      <img src="imagenes/logo.jpg" alt="">
+      <ul>
+        <li> <a href="">NOSOTROS</a></li>
+        <li> <a href="">SERVICIOS</a></li>
+        <li> <a href="">CONTACTO</a></li>
+    </ul>
+    </header>
+
+    <main class="contenedor">
+      <div>
+      <form class="formulario" id="formulario">
+
+        <div class="check">
+          <h1>CHECKOUT</h1> 
+        </div>
+
+        <div class="grupo">
+          <label for="inputname">TITULAR DE LA TARJETA</label>
+          <input type="text" id="inputname" placeholder="INGRESE NOMBRE" autocomplete="off" > <!--el id se coecta con el for del label-->
+        </div>
+
+        <div class="grupo">
+          <label for="inputnumber">NUMERO DE TARJETA</label>
+          <input type="text" id="inputnumber" placeholder="#### #### #### ####" autocomplete="off" > 
+        </div>
+
+        <div class="abajo">
+          <div class="expira"> 
+             <label for="inputemes">EXPIRACION (MM/AA)</label>
+             <div class="mes">
+             <input type="text" id="inputemes" placeholder="MM" maxlength="2">
+             <input type="text" id="inputaño" placeholder="YY" maxlength="2">
+            </div>
+          </div>
+
+          <div class="cvc">
+            <label for="inputcvc">CVV</label>
+            <input type="text" id="inputcvc" placeholder="***" maxlength="3">
+          </div>
+        </div>
+
+        <button type="submit" class="btn" id="btn">FINALIZAR COMPRA</button>
+        <p class="validar">holis</p>
+      </form>
+     </div>
+
+    </main>
+
     <footer></footer>
     <script src="index.js" type="module"></script>
   </body>

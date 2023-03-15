@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+   }
+
+   li{
+    display: inline-block;
+    padding: 0px 20px;
+    list-style: none;
+   }
+
+   a{
+    text-decoration: none;
+    font-size: 18px;
+    color: purple;
+    font-weight: 1000;
+   }
+   
+
+   .check{
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 15px;
+    color: purple;
+   }
+
+   .contenedor{
+    width: 60%;
+    height: 60%;
+    padding: 20px 20px 20px 20px;
+    margin: 20PX 20PX 20PX 60PX;
+    background-color: rgb(245, 242, 248);
+    border-radius: 20px;
+
+   }
+
+   #formulario{
+    background-color: rgb(245, 242, 248);
+    width: 100%;
+    padding: 30px 30px 40px 30px;
+    border-radius: 40px;
+   }
+
+ form label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+ }
+
+ form input{
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 10px;
+    height: 30px;
+    width: 100%;
+ }
+
+ #inputemes{
+    width: 10%;
+ }
+
+ #inputaño{
+    width: 10%;
+ }
+
+
+ .btn{
+    background-color: rgb(158, 67, 243);
+    padding: 10px 25px;
+    color: white;
+    border-radius: 50px;
+    width: 40%;
+    border: 2px solid rgb(100, 33, 167);
+    margin-top: 5px;
+    text-align: center;
+   }
+
+   button:hover{
+        color: black;
+   }
+
+   .cvc{
+    width: 10%;
+   }
+
