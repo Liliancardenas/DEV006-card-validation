@@ -8,18 +8,17 @@
   <body>
 
     <header>
-      
+      <img id="logo" src="imagenes/logo.jpg" alt="" width="200" >
 
       <ul>
         <li> <a href="">NOSOTROS</a></li>
         <li> <a href="">SERVICIOS</a></li>
         <li> <a href="">CONTACTO</a></li>
     </ul>
-
-    <img src="" alt="">
+    
     </header>
 
-    <main class="contenedor">
+    <main class="contenedor" id="contenedor">
       <div>
       <form class="formulario" id="formulario">
 
@@ -28,36 +27,44 @@
         </div>
 
         <div class="grupo">
-          <label for="inputname">TITULAR DE LA TARJETA</label>
-          <input type="text" id="inputname" placeholder="INGRESE NOMBRE" autocomplete="off" > <!--el id se coecta con el for del label-->
+          <label for="inputname" class="label">TITULAR DE LA TARJETA</label>
+          <input type="text" class="input" id="inputname" placeholder="INGRESE NOMBRE" autocomplete="off" required> <!--el id se coecta con el for del label-->
         </div>
 
         <div class="grupo">
-          <label for="inputnumber">NUMERO DE TARJETA</label>
-          <input type="text" id="inputnumber" placeholder="#### #### #### ####" autocomplete="off" > 
+          <label for="numero-tarjeta" class="label">NUMERO DE TARJETA</label>
+          <input type="text" class="input" id="numero-tarjeta" placeholder="0000 0000 0000 0000" autocomplete="off" maxlength="16" pattern="[0-9]+" required> 
         </div>
 
-        <div class="abajo">
+        <div class="grupo">
           <div class="expira"> 
-             <label for="inputemes">EXPIRACION (MM/AA)</label>
+             <label for="inputemes" class="label" >EXPIRACION (MM/AA)</label>
              <div class="mes">
-             <input type="text" id="inputemes" placeholder="MM" maxlength="2">
-             <input type="text" id="inputaño" placeholder="YY" maxlength="2">
+             <input type="text" class="input" id="inputemes" placeholder="MM" maxlength="2" required>
+             <input type="text" class="input" id="inputaño" placeholder="YY" maxlength="2" required>
             </div>
           </div>
 
           <div class="cvc">
-            <label for="inputcvc">CVV</label>
-            <input type="text" id="inputcvc" placeholder="***" maxlength="3">
+            <label for="inputcvc" class="label">CVV</label>
+            <input type="text" class="input" id="inputcvc" placeholder="***" maxlength="3" required>
           </div>
         </div>
 
-        <button type="submit" class="btn" id="btn">FINALIZAR COMPRA</button>
-        <p class="validar"></p>
+        <input type="button" class="btn" id="verificar-tarjeta" value="FINALIZAR COMPRA"/>  
+        <p id="resultado"></p>
       </form>
      </div>
 
+
     </main>
+    <div class="gracias disabled" id="gracias">
+      <img src="imagenes/fin.png" alt="icono de finalizado">
+      
+      <p class="fin">GRACIAS POR TU COMPRA</p>
+      <P class="texto-final">HEMOS AÑADIDO LOS DATOS DE TU TARJETA</P>
+      <button class="btn" id="btn">CONFIRMAR</button>
+     </div>
 
     <footer></footer>
     <script src="index.js" type="module"></script>
