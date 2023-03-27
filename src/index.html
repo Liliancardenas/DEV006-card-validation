@@ -2,24 +2,57 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Card validation</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
 
     <header>
-      <img id="logo" src="imagenes/logo.jpg" alt="" width="200" >
-
+      <div class="logo">
+        <img src="imagenes/logo.jpg" alt="" width="200px" height="200px">
+      </div>
       <ul>
         <li> <a href="">NOSOTROS</a></li>
         <li> <a href="">SERVICIOS</a></li>
         <li> <a href="">CONTACTO</a></li>
     </ul>
     
+    
     </header>
 
+    <div class="tarjeta" id="tarjeta">
+      <div class="frente-tarjeta">
+       
+       <img src="imagenes/tarjetafrente.png" id="tarjeta" alt="frente de la tarjeta" width="350" height="200">
+        <div class="frente-tarjeta-data">
+          <p class="frente-tarjeta-numero" id="tarjeta-numero">000 000 000 000</p>
+          <div class="frente-tarjeta-nombre">
+            <p class="frente-nombre" id="tarjeta-nombre">INGRESE NOMBRE</p>
+            <P class="frente-fecha">
+               <span id="tarjeta-mes">00</span>/
+               <span id="tarjeta-year">00</span>
+              </P>
+          </div>
+        </div>
+      </div>
+
+      <div class="atras-tarjeta">
+        <img src="imagenes/trajetaatras.png" id="tarjeta" alt="atras de tarjeta" width="350" height="200">
+        <div class="atras-tarjeta-data">
+          <p class="atras-cvv" id="tarjeta-cvv">000</p>
+        </div>
+      </div>
+     </div>
+    
+
+
+
+
+
+
+
+
     <main class="contenedor" id="contenedor">
-      <div>
       <form class="formulario" id="formulario">
 
         <div class="check">
@@ -39,34 +72,39 @@
         <div class="grupo">
           <div class="expira"> 
              <label for="inputemes" class="label" >EXPIRACION (MM/AA)</label>
-             <div class="mes">
-             <input type="text" class="input" id="inputemes" placeholder="MM" maxlength="2" required>
-             <input type="text" class="input" id="inputaño" placeholder="YY" maxlength="2" required>
+
+             <div class="mes"> 
+             <input type="text" class="input" id="inputmes" placeholder="MM" maxlength="2" required>
+             <input type="text" class="input" id="inputano" placeholder="YY" maxlength="2" required> 
             </div>
           </div>
 
           <div class="cvc">
             <label for="inputcvc" class="label">CVV</label>
-            <input type="text" class="input" id="inputcvc" placeholder="***" maxlength="3" required>
+            <input type="password" class="input" id="inputcvc" placeholder="***" maxlength="3" required>
           </div>
         </div>
 
         <input type="button" class="btn" id="verificar-tarjeta" value="FINALIZAR COMPRA"/>  
         <p id="resultado"></p>
       </form>
-     </div>
+     
 
 
     </main>
+
+
     <div class="gracias disabled" id="gracias">
-      <img src="imagenes/fin.png" alt="icono de finalizado">
+      <img class="final" src="imagenes/fin.jpg" alt="icono de finalizado" width="100" height="100">
       
       <p class="fin">GRACIAS POR TU COMPRA</p>
       <P class="texto-final">HEMOS AÑADIDO LOS DATOS DE TU TARJETA</P>
-      <button class="btn" id="btn">CONFIRMAR</button>
+      <a class="confirmar" href="index.html">CONFIRMAR</a>
      </div>
 
-    <footer></footer>
+    <footer>
+
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>

@@ -2,15 +2,16 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+   font-family: 'Courier New', Courier, monospace;
 }
 
 
 header{
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    padding: 10px;
+    margin-top: 30PX;
    }
+     
 
    li{
     display: inline-block;
@@ -24,7 +25,7 @@ header{
     color: purple;
     font-weight: 1000;
    }
-   
+  
 
    .check{
     padding-bottom: 50px;
@@ -33,8 +34,8 @@ header{
     color: purple;
    }
 
-   .contenedor{
-    width: 60%;
+  .contenedor{
+    width: 50%;
     height: 60%;
     padding: 20px 20px 20px 20px;
     margin: 20PX 20PX 20PX 60PX;
@@ -55,7 +56,9 @@ header{
     margin-bottom: 5px;
     font-size: 15px;
     padding-top: 20px;
-    
+    font-weight: 550;
+    letter-spacing: 2px;
+    color: rgb(211, 92, 112);
  }
 
  form input{
@@ -63,47 +66,146 @@ header{
     border-radius: 5px;
     font-size: 10px;
     height: 30px;
-    width: 100%;
+    width: 50%;
  }
 
- #inputemes{
+ #inputmes{
     width: 10%;
  }
 
- #inputaño{
+ #inputano{
     width: 10%;
  }
+
+ .label{
+   font-size: 17px;
+   margin-bottom: 10px;
+ }
+ 
+ .input{
+   font-size: 15px;
+ }
+
+
 
  .btn{
     background-color: rgb(158, 67, 243);
-    padding: 10px 25px;
     color: white;
     border-radius: 50px;
-    width: 40%;
+    width: 30%;
     border: 2px solid rgb(100, 33, 167);
-    margin-top: 5px;
+    margin-top: 25px;
+    margin-left: 36%;
     text-align: center;
     cursor: pointer;
+    font-size: 12px;
+    font-weight: 100;
+       }
+
+   .confirmar{
+      display: block;
+      background-color: rgb(158, 67, 243);
+      padding: 10px 25px;
+      color: white;
+      border-radius: 50px;
+      width: 40%;
+      border: 2px solid rgb(100, 33, 167);
+      margin-top: 20px;
+      text-align: center;
+      cursor: pointer;
    }
 
-   button:hover{
+   .btn:hover{
         color: black;
+        transition: 0.5s;
    }
 
    .cvc{
-    width: 10%;
+    width: 15%;
    }
 
    .disabled {
-      display: none;
+    display: none;
    }
 
-  
+   #gracias{
+      width: 500px;
+      height: 500px;
+      padding: 80px 60px 20px 60px;
+      margin: auto;
+      flex-direction: column;
+      justify-content: center; 
+      align-items: center; 
+   }
 
+   .fin{
+      margin-top: 30px;
+   }
+   .texto-final{
+      margin-top: 30px;
+   }
+
+
+
+
+
+   #tarjeta{
+      border-radius: 15px;
+   }
+
+   .tarjeta{
+     display: flex;
+     float: right;
+     flex-direction: column;
+     margin-right: 80px;
+     margin-top: 50px;
+     font-size: 20px;
+     }
+
+    .atras-tarjeta{
+      position: relative;
+      
+    }
+    
+    .atras-tarjeta-data{
+      background-color: transparent;
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      padding-right: 70px;
+      padding-bottom: 40px;  
+    }
+
+    
+
+
+    .frente-tarjeta{
+         position: relative; 
+    }
+
+    .frente-tarjeta-data{
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      padding: 1rem;
+      justify-content: space-between;
+      padding-bottom: 40px;
+      padding-top: 70px;
+    }
+
+    .frente-tarjeta-numero{
+      padding-left: 80px;
+      padding-top: 10px;
+    }
    
-   
 
-
-
-  
-
+    .frente-tarjeta-nombre{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      text-transform: uppercase;
+    }
