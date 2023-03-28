@@ -9,7 +9,9 @@
 header{
     display: flex;
     justify-content: space-around;
-    margin-top: 30PX;
+     align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid grey;
    }
      
 
@@ -25,6 +27,12 @@ header{
     color: purple;
     font-weight: 1000;
    }
+
+   a:hover{
+    color: black;
+   }
+
+   
   
 
    .check{
@@ -209,3 +217,56 @@ header{
       width: 100%;
       text-transform: uppercase;
     }
+
+
+
+    footer{
+        width: 100%;
+        background-color: rgb(195, 146, 240);
+        display: flex;
+        font-size: 13px;
+        justify-content: space-around;
+        margin-top: 70px;
+
+    }
+
+    .pie{
+        width: 30%;
+        margin-left: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 150px;
+        
+    }
+
+    .red-social{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        margin-left: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+        
+    }
+    
+    .titulo{
+        margin-bottom: 5px;
+    }
+
+    .imag{
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 48px;
+        margin-top: 10px;
+    }
+
+
+    .pie2{
+        padding: 15px 10px;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    
