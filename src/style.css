@@ -2,16 +2,18 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-   font-family: 'Courier New', Courier, monospace;
+   font-family: sans-serif
 }
 
 
 header{
     display: flex;
     justify-content: space-around;
-     align-items: center;
+    align-items: center;
     padding: 10px;
     border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+   
    }
      
 
@@ -23,9 +25,9 @@ header{
 
    a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 13px;
     color: purple;
-    font-weight: 1000;
+    font-weight: 600;
    }
 
    a:hover{
@@ -37,7 +39,7 @@ header{
 
    .check{
     padding-bottom: 50px;
-    text-align: center;
+    
     font-size: 15px;
     color: purple;
    }
@@ -62,11 +64,11 @@ header{
  form label{
     display: block;
     margin-bottom: 5px;
-    font-size: 15px;
+    font-size: 10px;
     padding-top: 20px;
     font-weight: 550;
     letter-spacing: 2px;
-    color: rgb(211, 92, 112);
+    color: rgb(129, 70, 79);
  }
 
  form input{
@@ -111,16 +113,19 @@ header{
        }
 
    .confirmar{
-      display: block;
+      display: flex;
+      justify-content: center;
       background-color: rgb(158, 67, 243);
       padding: 10px 25px;
       color: white;
       border-radius: 50px;
-      width: 40%;
       border: 2px solid rgb(100, 33, 167);
-      margin-top: 20px;
+      margin-top: 50px;
       text-align: center;
       cursor: pointer;
+      width: 45%;
+      margin-left: auto;
+      margin-right: auto;
    }
 
    .btn:hover{
@@ -146,11 +151,21 @@ header{
       align-items: center; 
    }
 
+     .final{
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 40px;
+      margin-top: 40px;
+      display: flex;
+      justify-content: center; 
+   }
+
    .fin{
-      margin-top: 30px;
+     
+     text-align: center;
    }
    .texto-final{
-      margin-top: 30px;
+    text-align: center;
    }
 
 
@@ -159,6 +174,7 @@ header{
 
    #tarjeta{
       border-radius: 15px;
+      color: rgb(129, 70, 79);
    }
 
    .tarjeta{
@@ -255,10 +271,10 @@ header{
     }
 
     .imag{
-        width: 40%;
+        width: 30%;
         display: flex;
         justify-content: space-around;
-        margin-left: 48px;
+        margin-left: 40px;
         margin-top: 10px;
     }
 

@@ -43,7 +43,7 @@ inputNombre.addEventListener("input", () => {
 
 nombre.addEventListener("input", function(){
   let soloNom = this.value;
-  soloNom = soloNom.replace(/[^a-zA-Z]/g, "")
+  soloNom = soloNom.replace(/[^a-zA-Z]/g,"")
   this.value = soloNom;
 });
 
@@ -142,7 +142,7 @@ function validarTarjeta(numeroTarjeta) {
     const esValida = validarTarjeta(numeroTarjetaInput.value);
    if(numeroTarjetaInput.value == "" || nombre.value == "" )
         {
-            alert('numero de tarjeta o nombre vacio');
+            alert('Rellene todos los campos');
         }
  else{
     if (esValida) 
