@@ -57,7 +57,7 @@ Segunda pagina
 
 Los puntos más relevantes a mejorar a partir del feedback recibido son mayormente a la posicion de los labels e input, ya que deben tener un tamaño mas a corde a la pagina (centrarlos y dejar los labels arriba de los input), asi como tambien el boton de finalizar compra debe tener un tamaño mas pequeño. Principalmente era arreglar el diseño de mi pagina web
 
-#### Prototipo final
+## Prototipo final
 Primera pagina
 ![Prototipo final](https://user-images.githubusercontent.com/127140327/228977213-ff58d837-6eeb-4a71-96ac-d8d9ade720f5.jpg)
 
