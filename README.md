@@ -29,9 +29,10 @@ Este proyecto permite validar el número de una tarjeta de crédito y devolver d
 
 ## Diseño de experiencia de usuario
 
-Este proyecto esta destinado para aquellas personas que prefieren relizar compras de ropa reciclada por internet, a través de una página segura.
+Este proyecto está destinado para aquellas personas que prefieren realizar compras de ropa reciclada por internet, a través de una página segura.
 
-En **DECOMPRITAS** podrás `validar` tu tarjeta de crédito o debito y registrarla para realizar tus compras de forma rápida y segura al momento de pagar, el sitio web te enviará a una pagina que te confirma si tu tarjeta es valida o no.
+
+En **DECOMPRITAS** podrás `validar` tu tarjeta de crédito o débito y registrarla para realizar tus compras de forma rápida y segura al momento de pagar, el sitio web te enviará a una página que te confirma si tu tarjeta es válida o no.
 
 ***
 
@@ -39,29 +40,29 @@ En **DECOMPRITAS** podrás `validar` tu tarjeta de crédito o debito y registrar
 ## Prototipo y feedback ✍️
 
 #### Portotipo de baja fidelidad
-   Primera pagina
+   Primera página
 ![baja fidelidad 1](https://user-images.githubusercontent.com/127140327/228965203-75f8ed6f-de8a-4017-b42b-d5a4a565495e.jpg)
 
-  Segunda pagina
+  Segunda página
 ![baja didelidad 2](https://user-images.githubusercontent.com/127140327/228965254-a3a3bf5d-6441-44aa-8bd5-3dc752abc82a.jpg)
 
 
 #### Primer prototipo presentado
-Primera pagina
+Primera página
 ![Primera presentacion](https://user-images.githubusercontent.com/127140327/228975222-ddbaa102-e74c-4813-80f5-8750284cc1d7.jpg)
 
-Segunda pagina
+Segunda página
 ![Primera presentacion 2](https://user-images.githubusercontent.com/127140327/228975810-f0db5b1f-9cc8-4a71-9c55-fc5c2b124ca8.jpg)
 
 #### feedback
 
-Los puntos más relevantes a mejorar a partir del feedback recibido son mayormente a la posicion de los labels e input, ya que deben tener un tamaño mas a corde a la pagina (centrarlos y dejar los labels arriba de los input), asi como tambien el boton de finalizar compra debe tener un tamaño mas pequeño. Principalmente era arreglar el diseño de mi pagina web
+Los puntos más relevantes a mejorar a partir del feedback recibido son mayormente a la posición de los labels e input, ya que deben tener un tamaño más acorde a la página (centrarlos y dejar los labels arriba de los input), así como también el botón de finalizar compra debe tener un tamaño más pequeño. Principalmente era arreglar el diseño de mí página web
 
 ## Prototipo final
-Primera pagina
+Primera página
 ![Prototipo final](https://user-images.githubusercontent.com/127140327/228977213-ff58d837-6eeb-4a71-96ac-d8d9ade720f5.jpg)
 
-Segunda pagina
+Segunda página
 ![Final](https://user-images.githubusercontent.com/127140327/228977332-214be60a-4552-469a-8436-e3943b31257c.jpg)
 
 
@@ -69,7 +70,7 @@ Segunda pagina
 
 
 ## Notas
-Para comprender el proyecto es necesario comprender el [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn) a demas de comprender la funcion maskify.
+Para comprender el proyecto es necesario comprender él [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn)  además de comprender la funcion maskify.
 En este proyecto no se usaron librerías o frameworks, solo JavaScript puro también conocido como Vanilla JavaScript.
 
 ***
