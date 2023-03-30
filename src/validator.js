@@ -6,7 +6,7 @@ const validator = {
 
     for (let i = numeroTarjeta.length - 1; i >= 0; i--) {
       // Recorrer los dígitos de la tarjeta de crédito de derecha a izquierda // leng vcuenta posiciones que tienes
-      let digito = parseInt(numeroTarjeta.charAt(i)); //parseINT te modifica el texto a un numero
+      let digito = parseInt(numeroTarjeta.charAt(i)); //parseINT te modifica el texto a un numero, ChatAT accede a un caracter
 
       if (multiplicador % 2 === 0) {
         // aqui verifico si el multiplicador es uno o dos si es 1 no entra al if
