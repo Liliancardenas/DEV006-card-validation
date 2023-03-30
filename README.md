@@ -58,6 +58,8 @@ Los puntos más relevantes a mejorar a partir del feedback recibido son mayormen
 
 ![Prototipo final](https://user-images.githubusercontent.com/127140327/228977213-ff58d837-6eeb-4a71-96ac-d8d9ade720f5.jpg)
 
+
+
 ![Final](https://user-images.githubusercontent.com/127140327/228977332-214be60a-4552-469a-8436-e3943b31257c.jpg)
 
 
@@ -72,3 +74,4 @@ En este proyecto no se usaron librerías o frameworks, solo JavaScript puro tamb
 
 
 ## Producto final
+
