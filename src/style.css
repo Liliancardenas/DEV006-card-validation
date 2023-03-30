@@ -172,10 +172,15 @@ header{
 
 
 
-   #tarjeta{
+   #tarjetaF{
       border-radius: 15px;
       color: rgb(129, 70, 79);
    }
+
+   #tarjetaA{
+    border-radius: 15px;
+    color: rgb(129, 70, 79);
+ }
 
    .tarjeta{
      display: flex;
