@@ -11,6 +11,7 @@ const mesInput = document.getElementById("inputmes");
 //const cvvInput = document.getElementById("inputcvc");
 const verificarTarjetaButton = document.getElementById('verificar-tarjeta');
 
+
 // obtener los elementos para la tarjeta
 //const mascara = document.getElementById("tarjeta-numero");
 const parrafo = document.getElementById('tarjeta-numero');
@@ -51,11 +52,12 @@ nombre.addEventListener("input", function(){
 // ingresar dentro de mi tarjeta el maskify y solo campos numericos en input de numero de tarjeta
 inputTarjeta.addEventListener("input", () => {
   cardNumber.innerText = inputTarjeta.value;
-  function maskify(input) {
-    return input.slice(0, -4).replace(/./g, '#') + input.slice(-4) // maskify
-  }
+
+  
+  //alert(maskify)
+  
   const originalTexto = parrafo.textContent;
-  const maskedTexto = maskify(originalTexto);
+  const maskedTexto = validator.maskify(originalTexto);  
   parrafo.textContent = maskedTexto;
   
   if(inputTarjeta.value.length === 0){
@@ -111,28 +113,6 @@ inputCvv.addEventListener("input", () => {
 
 
 
-//Algoritmo de Luhn
-function validarTarjeta(numeroTarjeta) {
-  let suma = 0; // la suma parte de 0 
-  let multiplicador = 1; // osea posicion 1
-     
-  for (let i = numeroTarjeta.length - 1; i >= 0; i--) {  // Recorrer los dígitos de la tarjeta de crédito de derecha a izquierda // leng vcuenta posiciones que tienes 
-    let digito = parseInt(numeroTarjeta.charAt(i)); //parseINT te modifica el texto a un numero
-    
-    if (multiplicador % 2 === 0) {   // aqui verifico si el multiplicador es uno o dos si es 1 no entra al if 
-      digito *= 2; //si es 2 lo multiplica por dos
-     
-      if (digito > 9) {  // Si el resultado de la multiplicación es mayor a 9, sumar los dígitos del número resultante
-        digito -= 9; // men vez de suma le resto 9 que da lo mismo
-      }
-    } 
-    multiplicador = multiplicador === 1 ? 2 : 1;   // Cambiar el multiplicador para alternar entre 1 y 2
-    suma += digito;   // Sumar el dígito actual a la suma total
-  }
-  return suma % 10 === 0;   // La tarjeta de crédito es válida si la suma total es un múltiplo de 10
-}
-
-
 
 
 
@@ -140,7 +120,7 @@ function validarTarjeta(numeroTarjeta) {
 // Evento de escuchar o llamar al botón para validar tarjeta
 verificarTarjetaButton.addEventListener('click', function() 
 {
-  const esValida = validarTarjeta(numeroTarjetaInput.value);
+  const esValida = validator.isValid(numeroTarjetaInput.value);
   if(numeroTarjetaInput.value === "" || nombre.value === "" )
   {
     alert('Rellene todos los campos');
