@@ -13,7 +13,6 @@ const verificarTarjetaButton = document.getElementById('verificar-tarjeta');
 
 
 // obtener los elementos para la tarjeta
-//const mascara = document.getElementById("tarjeta-numero");
 const parrafo = document.getElementById('tarjeta-numero');
 
 const inputNombre = document.querySelector("#inputname");
