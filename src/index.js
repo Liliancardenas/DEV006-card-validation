@@ -32,7 +32,7 @@ const cardCvv = document.querySelector("#tarjeta-cvv");
 
 
 // Darle funcion a la tarjeta   funcion para el nombre    
-inputNombre.addEventListener("input", () => {
+inputNombre.addEventListener("input", () => { // detecta cuando el usuarios hace un evento en mi input y le pasamos una funcion como 2 parametro
   cardName.innerText = inputNombre.value;
   if(inputNombre.value.length === 0) {
     cardName.innerText ="INGRESE NOMBRE"
@@ -53,7 +53,7 @@ inputTarjeta.addEventListener("input", () => {
   cardNumber.innerText = inputTarjeta.value;
 
   
-  //alert(maskify)
+  
   
   const originalTexto = parrafo.textContent;
   const maskedTexto = validator.maskify(originalTexto);  
