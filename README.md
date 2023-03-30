@@ -42,11 +42,15 @@ En **DECOMPRITAS** podrás `validar` tu tarjeta de crédito o debito y registrar
 
 ![baja fidelidad 1](https://user-images.githubusercontent.com/127140327/228965203-75f8ed6f-de8a-4017-b42b-d5a4a565495e.jpg)
 
+***
+
 ![baja didelidad 2](https://user-images.githubusercontent.com/127140327/228965254-a3a3bf5d-6441-44aa-8bd5-3dc752abc82a.jpg)
 
 #### Primer prototipo presentado
 
 ![Primera presentacion](https://user-images.githubusercontent.com/127140327/228975222-ddbaa102-e74c-4813-80f5-8750284cc1d7.jpg)
+
+***
 
 ![Primera presentacion 2](https://user-images.githubusercontent.com/127140327/228975810-f0db5b1f-9cc8-4a71-9c55-fc5c2b124ca8.jpg)
 
