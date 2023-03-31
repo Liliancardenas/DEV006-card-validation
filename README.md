@@ -41,10 +41,11 @@ En **DECOMPRITAS** podrás `validar` tu tarjeta de crédito o débito y registra
 
 #### Portotipo de baja fidelidad
    Primera página
-![baja fidelidad 1](https://user-images.githubusercontent.com/127140327/228965203-75f8ed6f-de8a-4017-b42b-d5a4a565495e.jpg)
+![Baja Fidelidad 1 1](https://user-images.githubusercontent.com/127140327/229144475-bdf569f8-3e80-455e-a36e-85fd2b7f1d62.jpg)
+
 
   Segunda página
-![baja didelidad 2](https://user-images.githubusercontent.com/127140327/228965254-a3a3bf5d-6441-44aa-8bd5-3dc752abc82a.jpg)
+![Baja Fielidad 2 2](https://user-images.githubusercontent.com/127140327/229144665-92015c87-6179-46a2-b895-33cf029bf991.jpg)
 
 
 #### Primer prototipo presentado
