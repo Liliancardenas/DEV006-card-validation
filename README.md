@@ -13,6 +13,8 @@
 ***
 
 
+
+
 ## Resumen de mi proyecto
 Este proyecto permite validar el número de una tarjeta de crédito y devolver dicho número ocultando todos los dígitos excepto los últimos 4, sin importar la longitud del número validado.
 
@@ -27,6 +29,8 @@ Este proyecto permite validar el número de una tarjeta de crédito y devolver d
 ***
 
 
+
+
 ## Diseño de experiencia de usuario
 
 Este proyecto está destinado para aquellas personas que prefieren realizar compras de ropa reciclada por internet, a través de una página segura.
@@ -35,6 +39,8 @@ Este proyecto está destinado para aquellas personas que prefieren realizar comp
 En **DECOMPRITAS** podrás `validar` tu tarjeta de crédito o débito y registrarla para realizar tus compras de forma rápida y segura al momento de pagar, el sitio web te enviará a una página que te confirma si tu tarjeta es válida o no.
 
 ***
+
+
 
 
 ## Prototipo y feedback ✍️
@@ -46,8 +52,10 @@ En **DECOMPRITAS** podrás `validar` tu tarjeta de crédito o débito y registra
 
 
   Segunda página
-  
+
   ![Baja Fielidad 2 2](https://user-images.githubusercontent.com/127140327/229144665-92015c87-6179-46a2-b895-33cf029bf991.jpg)
+
+
 
 
 #### Primer prototipo presentado
@@ -56,6 +64,8 @@ Primera página
 
 Segunda página
 ![Primera presentacion 2](https://user-images.githubusercontent.com/127140327/228975810-f0db5b1f-9cc8-4a71-9c55-fc5c2b124ca8.jpg)
+
+
 
 #### feedback
 
@@ -72,11 +82,15 @@ Segunda página
 ***
 
 
+
+
 ## Notas
 Para comprender el proyecto es necesario comprender él [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn)  además de comprender la funcion maskify.
 En este proyecto no se usaron librerías o frameworks, solo JavaScript puro también conocido como Vanilla JavaScript.
 
 ***
+
+
 
 
 ## Producto final
