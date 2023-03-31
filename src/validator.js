@@ -29,4 +29,3 @@ const validator = {
 };
 
 export default validator;
-11

@@ -47,7 +47,6 @@ nombre.addEventListener("input", function(){
 });
 
 
-
 // ingresar dentro de mi tarjeta el maskify y solo campos numericos en input de numero de tarjeta
 inputTarjeta.addEventListener("input", () => {
   cardNumber.innerText = inputTarjeta.value;
